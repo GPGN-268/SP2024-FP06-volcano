@@ -5,11 +5,11 @@
 ## Problem Statement
 - How can does geophysical data help predict volcano activity and eruption
 ## Data Sets
-<br>
+
 ## Tools/Packages
-<br>
+
 ## Planned Methodology
-<br>
+
 ## Expected Outcomes
-<br>
+
 ## References
