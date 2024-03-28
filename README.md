@@ -9,16 +9,18 @@
 ## Data Sets
 - [Mirova DB for heat](https://www.mirovaweb.it/)
 - [Smithsonaion DB for eruptions](https://volcano.si.edu/database/search_eruption_results.cfm)
-- [Deforamtion DB](https://comet.nerc.ac.uk/comet-volcano-portal/volcano-index/Search-All)
+- [Deformation DB](https://comet.nerc.ac.uk/comet-volcano-portal/volcano-index/Search-All)
 ## Tools/Packages
-- obspy
-- seisbench
-- numpy
-- pandas
-- matplotlib?
+- Python: We will use Python and Python libraries to visualize and process data
+- ObsPy and Seisbench: ObsPy and Seisbench are two Python libraries that are used to analyze seismic data
+- Numpy: Numpy is a python library that will allow us to process and manipulate data
+- MatPlotLib: This python library is useful for plotting our data sets 
 ## Planned Methodology
 - Examine an eruption case using heat, gas emissions, seismic, and deformation data.
 - Determine how these properties change over time.
+## Present/Anticipated Challenges
+- Finding multiple sets of data from before, during, and after the eruption of a volcano
+- Cloud cover obstructing thermal sensors
 ## Expected Outcomes
 - We expect heat, emissions, deformation, and seismic activity to increase leading up to an eruption.
 - We also expect these properties to decrease following eruption.
