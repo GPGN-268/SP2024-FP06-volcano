@@ -1,9 +1,10 @@
-# Predicting Volcano Eruption
+# Observing and Describing a Volcanic Eruption
 ## Names: 
 - Jude Lowe, Lucas Holt, Jack Logan
-
-- Use Geophysical Data to predict when Volcano Eruptions might occur
-- Geophysical methods are used to observe what is going on under the surface and can be used to see what volcanic processes occur
+## Background
+- Geophysical methods are used to observe what is going on under the surface and can be used to see what volcanic processes occur.
+- The heat (infrared electromagnetic radiation), gases, and seismic waves volcanoes release could be an indicator of volcanic activity.
+- Displacement measurements can indicate deformation caused by volcanism.
 ## Problem Statement
 - What trends can we observe in geophysical data before, during, and after a volcanic eruption period?
 ## Data Sets
