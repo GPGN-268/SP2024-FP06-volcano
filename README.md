@@ -7,7 +7,9 @@
 ## Problem Statement
 - How can geophysical data help predict volcanic activity and eruptions
 ## Data Sets
-
+- [Mirova DB for heat](https://www.mirovaweb.it/)
+- [Smithsonaion DB for eruptions](https://volcano.si.edu/database/search_eruption_results.cfm)
+- [Deforamtion DB](https://comet.nerc.ac.uk/comet-volcano-portal/volcano-index/Search-All)
 ## Tools/Packages
 - obspy
 - seisbench
