@@ -1,0 +1,12 @@
+name: SP2024-FP06
+channels:
+ - conda-forge
+dependencies:
+ - python=3.12*
+ - pip
+ - cartopy >= 0.20.0
+ - jupyterlab
+ - numpy
+ - pandas
+ - h5py
+ - matplotlib
