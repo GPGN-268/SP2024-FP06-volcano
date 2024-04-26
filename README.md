@@ -1,6 +1,8 @@
 # Observing and Describing a Volcanic Eruption
 ## Names: 
-- Jude Lowe, Lucas Holt, Jack Logan
+- Jude Lowe (judelowe): Ground Deformation Data
+- Lucas Holt (DimensionalSummation): Thermal Imaging Data
+- Jack Logan (jackplogan33): Seismic and SO2 Data
 ## Background
 - Geophysical methods are used to observe what is going on under the surface and can be used to see what volcanic processes occur.
 - The heat (infrared electromagnetic radiation), gas, and seismic waves volcanoes release could be an indicator of volcanic activity.
@@ -33,4 +35,7 @@
 - We expect heat, emissions, deformation, and seismic activity to increase leading up to an eruption.
 - We also expect these properties to decrease following eruption.
 - How will the post-eruption data compare to pre-eruption?
-
+## Summary of Results
+- Seismic events tend to happen around/near deformation ​
+- Seismic events have a reverse correlation to Sulfur Dioxide emissions​
+- Hot pixels in thermal images occurs in clusters
