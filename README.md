@@ -50,3 +50,13 @@
 - Find and use Geospatial data for thermal anomalies
 - Check other stratovolcanoes for similarities
 - Apply machine learning algorithms to predict eruptions for the specific site
+## Contribution Statement
+Jack was responsible for all of the data acquisition and processing of the sulfur dioxide emissions and seismic events. He also created all of the graphs and maps for the analysis of the sulfur dioxide and seismic data. 
+
+Lucas was responsible for the processing and analysis of the thermal index data.
+
+Jude was resonsible for the processing and analysis of the deformation data. This included reproducing the maps from the COMET website and overlaying the seismic events on the same plot.
+## References
+Can Li, Nickolay A. Krotkov, Peter Leonard, Joanna Joiner (2020), OMPS/NPP PCA SO2 Total Column 1-Orbit L2 Swath 50x50km V2, Greenbelt, MD, USA, Goddard Earth Sciences Data and Information Services Center (GES DISC), Accessed: Apr 14, 2024, 10.5067/MEASURES/SO2/DATA205
+
+K, B. (2022, May 29). Visualizing the Invisible SO2 with NASA Data and Python. Medium. https://towardsdatascience.com/visualize-the-invisible-so2-with-nasa-data-and-python-2619f8ed4ea1
