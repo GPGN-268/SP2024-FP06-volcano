@@ -1,15 +1,29 @@
 # Observing and Describing a Volcanic Eruption
 ## Names: 
-- Jude Lowe (judelowe): Ground Deformation Data
-- Lucas Holt (DimensionalSummation): Thermal Imaging Data
-- Jack Logan (jackplogan33): Seismic and SO2 Data
+Jude Lowe (@judelowe): Ground Deformation Data
+
+Lucas Holt (@DimensionalSummation): Thermal Imaging Data
+
+Jack Logan (@jackplogan33): Seismic and SO<sub>2</sub> Data
+## Project Summary
+Using skills and tools learned in this course, we researched and analyzed different geophysical properties in the Sabancaya Volcano, Peru. We analyzed sulfur dioxide gas emissions, seismic events, ground deformation, and heat anomaly to decipher any correlations between these of volcanic processes during the volcano's eruptive period.
+
+## How to use this repository
+This repository contains a notebooks folder, a figures folder, presentation slides with our findings, and an environment file. Inside the notebooks folder is a dev file which contains the developmental notebooks, and the final notebooks for each team member's contribution.
+
+To reproduce our project, the data must be downloaded from the respective databases below. The environment file contains all of the software packages used in this project and must be downloaded to reproduce it properly. To reproduce the project for your own volcano, check with the Smithsonian Institute database for coordinates and events, then download the data for that specific volcano from each of the databases.
+
 ## Background
-- Geophysical methods are used to observe what is going on under the surface and can be used to see what volcanic processes occur.
-- The heat (infrared electromagnetic radiation), gas, and seismic waves volcanoes release could be an indicator of volcanic activity.
-- Displacement measurements can indicate deformation caused by volcanism.
-- Our target is Sabancaya, an active stratovolcano in Peru. It has been actively erupting since 2016.
+
+Volcanic eruptions are powerful geologic processes that can cause a lot of destruction and pose a threat to humans. It is estimated that 500 million people live in the shadow of an active volcano (Kitchen, 2023). Understanding more about the processes and trends in geophysical processes of active volcanoes can help us implement better warning systems for people who live near active volcanoes.
+
+Volcanoes often give warning signs before they erupt. They can emit more gases, different types of gases, the ground can deform, earthquakes can increase in intensity and frequency, or alter their heat flow (USGS, 2019). Because of these processes, we chose to investigate the emissions of sulfur dioxide (SO<sub>2</sub>), seismic activity, heat, and ground deformation of an active volcano. 
+
+Using the Smithsonian Institute's volcanic index, we found an active volcano in Peru called Vulcan Sabancaya. This volcano has been actively erupting since November 2016, with an explosive index as high as 3 (Global Volcanism Program | Sabancaya, n.d.). Sabancaya has coordinates of 15.787°S, 71.857°W, and the volcano number 354006.
+
 ## Problem Statement
-- What trends can we observe in geophysical data before, during, and after a volcanic eruption period?
+What trends can we observe in geophysical data during a volcanic eruption period?
+
 ## Data Sets
 - [Smithsonian Institution Database](https://volcano.si.edu/volcano.cfm?vn=354006)
     - To find volcanoes and eruptions
@@ -21,12 +35,13 @@
     - For OMPS/NPP Sulfur Dioxide Data
 - [USGS National Earthquake Information Center](https://earthquake.usgs.gov/earthquakes/map/?extent=-16.90443,-73.17169&extent=-15.1066,-70.25482&range=search&listOnlyShown=true&baseLayer=ocean&timeZone=utc&search=%7B%22name%22:%22Search%20Results%22,%22params%22:%7B%22starttime%22:%222010-01-01%2000:00:00%22,%22endtime%22:%222024-04-04%2023:59:59%22,%22minlatitude%22:-17.719,%22maxlongitude%22:-70.497,%22minlongitude%22:-77.528,%22latitude%22:-15.787,%22longitude%22:-71.857,%22maxradiuskm%22:50,%22minmagnitude%22:2.5,%22orderby%22:%22time%22%7D%7D)
     - Uses USGS sensors to find seismic events near the volcano
+    - Refined the search to a 50km radius around the peak.
 ## Tools/Packages
-- Python: We will use Python and Python libraries to visualize and process data
-- Pandas: A python library with a useful data storage type (Series) and ways to read data from different file types (most notably, .csv).
-- Numpy: Numpy is a python library that will help us manipulate data, as it is effective for mathematical and statistical operations.
-- MatPlotLib: This python library allows us to use heatmaps, scatter plots, and other types of plots, along with useful visualization tools.
-- h5py: This python library allows the program to read hdf5 files and load them into numpy arrays and pandas DataFrames
+- [Python](https://www.python.org/): We will use Python and Python libraries to visualize and process data
+- [Pandas](https://pandas.pydata.org/): A python library with a useful data storage type (Series) and ways to read data from different file types (most notably, .csv).
+- [Numpy](https://numpy.org/): Numpy is a python library that will help us manipulate data, as it is effective for mathematical and statistical operations.
+- [MatPlotLib](https://matplotlib.org/): This python library allows us to use heatmaps, scatter plots, and other types of plots, along with useful visualization tools.
+- [h5py](https://www.h5py.org/): This python library allows the program to read hdf5 files and load them into numpy arrays and pandas DataFrames
 ## Planned Methodology
 - Examine an eruption case from Sabancaya (Peru) using heat, gas emissions, seismic, and deformation time series.
 - Model these data with respect to time, along with known eruptions, to visualize trends before and after eruptions.
