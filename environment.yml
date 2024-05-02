@@ -10,3 +10,4 @@ dependencies:
  - pandas
  - h5py
  - matplotlib
+ - imageio
