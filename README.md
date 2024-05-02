@@ -1,9 +1,7 @@
 # Observing and Describing a Volcanic Eruption 
 Jude Lowe (@judelowe): Ground Deformation Data
-
-Lucas Holt (@DimensionalSummation): Thermal Imaging Data
-
-Jack Logan (@jackplogan33): Seismic and SO<sub>2</sub> Data
+<br>Lucas Holt (@DimensionalSummation): Thermal Imaging Data
+<br>Jack Logan (@jackplogan33): Seismic and SO<sub>2</sub> Data
 
 ## Project Summary
 Using skills and tools learned in this course, we researched and analyzed different geophysical properties in the Sabancaya Volcano, Peru. We analyzed sulfur dioxide gas emissions, seismic events, ground deformation, and heat anomaly to decipher any correlations between these of volcanic processes during the volcano's eruptive period.
@@ -70,11 +68,11 @@ What trends can we observe in geophysical data during a volcanic eruption period
 - Apply machine learning algorithms to predict eruptions for the specific site
 
 ## Contribution Statement
-Jack was responsible for all of the data acquisition and processing of the sulfur dioxide emissions and seismic events. He also created all of the graphs and maps for the analysis of the sulfur dioxide and seismic data. 
+Jack was responsible for all the data acquisition and processing of the sulfur dioxide emissions and seismic events. He also created all of the graphs and maps for the analysis of the sulfur dioxide and seismic data. 
 
 Lucas was responsible for the processing and analysis of the thermal index data.
 
-Jude was resonsible for the processing and analysis of the deformation data. This included reproducing the maps from the COMET website and overlaying the seismic events on the same plot.
+Jude was responsible for the processing and analysis of the deformation data. This included reproducing the maps from the COMET website and overlaying the seismic events on the same plot.
 
 ## References
 Can Li, Nickolay A. Krotkov, Peter Leonard, Joanna Joiner (2020), OMPS/NPP PCA SO2 Total Column 1-Orbit L2 Swath 50x50km V2, Greenbelt, MD, USA, Goddard Earth Sciences Data and Information Services Center (GES DISC), Accessed: Apr 14, 2024, 10.5067/MEASURES/SO2/DATA205
